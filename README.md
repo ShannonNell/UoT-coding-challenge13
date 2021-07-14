@@ -17,22 +17,31 @@ ___
 ___
 
 ## Installation
+First clone the repository from GitHub. This app uses Node.js, Express.js, and Sequelize. Once cloned, open your terminal and npm install the dependencies as found in the package.json file (dotenv, express, mysql2, and sequelize). You will need to create a .env file to hide your password.
 
+To connect to the database, run `mysql -u root -p`, then ensure the schema.sql file is sourced by running `source db/schema.sql`. Quit mysql and open the terminal again. Seed the file by running `npm run seed` and to connect to the server run `npm start`. From there you can test routes with Insomnia Core if you'd like.
 ___
 
 ## Usage
+This app allows users to get, create, update, and delete categories, tags, and products. 
 
-
-![screenshotHere](/assets/images/)
+![screenshotHere](/assets/images/ch13_ss.png)
 ___
 
 ## Links
 ### Walkthrough of app:
-* [Video Walkthrough]()
+* [MySQL Video Walkthrough](https://drive.google.com/file/d/1FGFB4AX-3sj51Vu0KjhcLpWe5Z7MtrsQ/view)
+* [API Routes Video Walkthrough](https://drive.google.com/file/d/1ZcBnB4BCqmGEpZ8K2cIg9oiPARM1Ev9s/view)
+
 ___
 
 ## Tools
 * JavaScript
+* node.js
+* MySQL
+* Express.js
+* Sequelize
+* dotenv
 ___
 
 ## Credits
